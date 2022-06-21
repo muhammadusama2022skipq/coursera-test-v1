@@ -21,13 +21,13 @@
   }
   
   
-  .container{
+  .box{
     width: 100%;
     overflow: none;
   }
   
   
-  .menu-heading{
+  .content-name{
     overflow: none;
     text-align: center;
     border: 4px solid black;
@@ -41,7 +41,7 @@
     position: relative;
   }
   
-  .menu-dexcription{
+  .content{
     border: 5px solid black;
     width: 90%;
     height: auto;
@@ -53,15 +53,15 @@
     background-color: rgba(0,0,0,0.3);
   }
   
-  .menu-heading-1{
+  .name1{
     background-color: #FFB6C1;
   }
   
-  .menu-heading-2{
+  .name2{
     color: white;
     background-color: #FF0000;
   }
-  .menu-heading-3{
+  .name3{
     background-color: #FFFF00;
   }
   
@@ -85,7 +85,7 @@
       margin-left: -10px;
       width: 100%;
     }
-    .menu-heading-3{
+    .name3{
       margin-right: 65px;
       width: 100px;
     }
@@ -96,8 +96,7 @@
         float: left;
       width: 100%;
     }
-    .menu-heading{
+    .content-name{
       margin-right: 30px;
     }
   }
-  
